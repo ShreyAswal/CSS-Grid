@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+.grid-container {
+    display: grid;
+    justify-items: center;
+    margin-top: 70px;
+
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+
+
+}
+.grid-item {
+
+    height: 150px;
+    width: 200px;
+    justify-content: space-around;
+}
+.grid-item-1 {
+    background-image: url(./iQOO\ Neo\ 6\ 5G.jpg);
+    border-radius: 30px;
+    background-size: cover;
+}
+.grid-item-2 {
+    background-image: url(./laptop.png);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-3 {
+    background-image: url(./MOTOROLA\ edge\ 30\ 1.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-4 {
+    background-image: url(./Poco\ f4\ 5G.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-5 {
+    background-image: url(./Redmi\ K50i\ 5G.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-6 {
+    background-image: url(./sholes.png);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-7 {
+    background-image: url(./sofa.png);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-8 {
+    background-image: url(./sofa\ with\ pillow.png);
+    background-size: cover;
+    border-radius: 30px;
+}
+.grid-item-9 {
+    background-image: url(./MOTOROLA\ edge\ 30\ 2.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
